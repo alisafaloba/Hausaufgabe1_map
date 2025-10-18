@@ -9,5 +9,10 @@ public class Main {
         System.out.println((noten1.getMittelwert()));
         System.out.println(Arrays.toString(noten1.getAbgerundeteNoten()));
         System.out.println((noten1.getMaxNoten()));
+        Array array1= new Array(new int[]{4, 8, 3,10,17});
+        System.out.println(array1.getMax());
+        System.out.println(array1.getMin());
+        System.out.println(array1.maxSum());
+        System.out.println(array1.minSum());
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Noten {
-    private int[] Noten = new int[100];
+    private int[] Noten;
 
     public Noten(int[] noten) {
         Noten = noten;
