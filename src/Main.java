@@ -14,5 +14,11 @@ public class Main {
         System.out.println(array1.getMin());
         System.out.println(array1.maxSum());
         System.out.println(array1.minSum());
+        Zahlen zahlen = new Zahlen(new int[]{1,3,0,0,0,1},new int[]{8,7,0,0,0,9});
+        System.out.println(Arrays.toString(zahlen.summe()));
+        Zahlen zahlen1 = new Zahlen(new int[]{1,6,7},new int[]{0,0,0});
+        System.out.println(Arrays.toString(zahlen1.dif()));
+        System.out.println(Arrays.toString(zahlen1.mul(9)));
+        System.out.println(Arrays.toString(zahlen1.div(2)));
     }
 }
