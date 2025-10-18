@@ -20,5 +20,11 @@ public class Main {
         System.out.println(Arrays.toString(zahlen1.dif()));
         System.out.println(Arrays.toString(zahlen1.mul(9)));
         System.out.println(Arrays.toString(zahlen1.div(2)));
+        Shop shop= new Shop(new int[]{60},new int[]{8,7,0,0,9},20);
+        System.out.println((shop.getMaxGeld()));
+        System.out.println((shop.getMaxUsbpreisB()));
+        System.out.println((shop.getMinTastaturpreis()));
+        System.out.println((shop.getTeuergegenstand()));
+
     }
 }
